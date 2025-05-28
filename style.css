@@ -47,7 +47,9 @@ main.main-container {
     align-items: center;
     justify-content: center;
     padding-inline: 1.25rem;
+    padding-top: 120px; /* Adjust this value if your header height changes */
 }
+
 
 footer.footer {
     margin-top: 1.25rem;
