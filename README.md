@@ -24,9 +24,9 @@ The primary goals of InkSpire are to:
 
 | Technology        | Purpose                                           |
 |-------------------|---------------------------------------------------|
-| HTML5 & CSS3      | Structuring and styling the layout                |
-| JavaScript (Vanilla) | Logic for dynamic quote fetching & UI interaction |
-| GitHub Pages      | Hosting and automatic deployment                  |
+| HTML & CSS      | Structuring and styling the layout                |
+| JavaScript  | Logic for dynamic quote fetching & UI interaction |
+| GitHub Pages      | Hosting and deployment                  |
 
 ---
 
