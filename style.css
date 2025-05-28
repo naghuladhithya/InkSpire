@@ -9,11 +9,9 @@ html {
   left: 0;              /* Align to left */
   width: 100%;          /* Full width */
   z-index: 1000;        /* Make sure it stays above other content */
-  background-color: #222; /* Keep your background color */
   text-align: center;
   padding: 1rem;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
+
 }
 
 body {
