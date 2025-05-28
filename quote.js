@@ -1,542 +1,554 @@
 const localQuotes = [
-    {
-        "text": "I'm sorry, what were you asking me? Oh, yes, that stupid plastic container I asked you to buy. You see, hydrofluoric acid won't eat through plastic; it will however dissolve metal, rock, glass, ceramic. So there's that.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Alright, I've got the talking pillow now... Okay?",
-        "author": "Walter White"
-    },
-    {
-        "text": "We tried to poison you. We tried to poison you because you are an insane, degenerate piece of filth and you deserve to die.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Alright, tell you what. Both of you pull it out your butts right now, or I go grab a flashlight and some pliers and go exploring.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "I do not believe fear to be an effective motivator. I want investment. For now, I'm simply interested in time frame.",
-        "author": "Gustavo Fring"
-    },
-    {
-        "text": "When you have children, you always have family. They will always be your priority, your responsibility. And a man, a man provides. And he does it even when he's not appreciated or respected or even loved. He simply bears up and he does it. Because he's a man.",
-        "author": "Gustavo Fring"
-    },
-    {
-        "text": "Hey, tell your douchebag brother-in-law to head towards the light.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Did you know that there's an acceptable level of rat turds that can go into candy bars? It's the government, jack. Even government doesn't care that much about quality. You know what is okay to put in hot dogs? Huh? Pig lips and *beep* But I say, hey, have at it bitches 'cause I love hot dogs.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "The one that says if I can't kill you, you'll sure as *beep* wish you were dead.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "You won, Walter. You got the job. Do yourself a favor and learn to take yes for an answer.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "The thing is, if you just do stuff and nothing happens, what's it all mean? What's the point? Oh right, this whole thing is about self-acceptance.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "You are a time bomb, tick-tick-ticking. And I have no intention of being around for the boom.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "Don't drink and drive but if you do, call me.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "I am not in danger, Skyler. I AM the danger!",
-        "author": "Walter White"
-    },
-    {
-        "text": "A guy opens his door and gets shot and you think that of me? No. I am the one who knocks!",
-        "author": "Walter White"
-    },
-    {
-        "text": "If that’s true, if you don’t know who I am, then maybe your best course… would be to tread lightly.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Someone has to protect this family from the man who protects this family.",
-        "author": "Skyler White"
-    },
-    {
-        "text": "Smoking marijuana, eating cheetos, and masturbating do not constitute plans in my book.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Stay out of my territory.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Because I say so.",
-        "author": "Walter White"
-    },
-    {
-        "text": "I'm not in the meth business. I'm in the empire business.",
-        "author": "Walter White"
-    },
-    {
-        "text": "You all know exactly who I am. Say my name.",
-        "author": "Walter White"
-    },
-    {
-        "text": "I watched Jane die. I was there. And I watched her die.",
-        "author": "Walter White"
-    },
-    {
-        "text": "I did it for me. I liked it. I was good at it. And... I was really... I was alive.",
-        "author": "Walter White"
-    },
-    {
-        "text": "\"Cap'n Cook?\" That's not you? Like I said, no one is looking for you.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Do you know how much I make a year? I mean, even if I told you, you wouldn't believe it.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Jesus! Just grow some fucking balls!",
-        "author": "Walter White"
-    },
-    {
-        "text": "F*ck you! And your eyebrows!",
-        "author": "Walter White"
-    },
-    {
-        "text": "Send him to Belize? I'll send YOU to Belize.",
-        "author": "Walter White"
-    },
-    {
-        "text": "We're done when I say we're done.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Sitting around, smoking marijuana, eating Cheetos and masturbating do not constitute \"plans\".",
-        "author": "Walter White"
-    },
-    {
-        "text": "I did it for me. I liked it. I was good at it. And I was really... I was alive.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Bitch!",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "So you do have a plan? Yeah, Mr. White! Yeah, science!",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "I'm a criminal, yo.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Yeah, bitch! Magnets!",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "You're my free pass... bitch!",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Fire in the hole, bitch!",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Did you just bring a bomb into a hospital?",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Seriously? \"Hello Kitty\"?",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Speak into the mic, bitch.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Better call Saul!",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "You do seem to have a little “shit creek” action going… You know, FYI, you can buy a paddle.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "If I ever get anal polyps, I'll know what to name them.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "You two suck at peddling meth.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "Clearly, his taste in women is the same as his taste in lawyers.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "Congratulations, you’ve just left your family a second-hand Subaru.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "I’m not saying it’s not bad. It’s bad. But it could be worse.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "I hide in plain sight, same as you.",
-        "author": "Gustavo Fring"
-    },
-    {
-        "text": "May his death satisfy you.",
-        "author": "Gustavo Fring"
-    },
-    {
-        "text": "I will kill your wife, I will kill your son, I will kill your infant daughter.",
-        "author": "Gustavo Fring"
-    },
-    {
-        "text": "Everyone sounds like Meryl Streep with a gun to their head.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "You know how they say it's been a pleasure'? Well... it hasn't.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "Just because you shot Jesse James doesn't mean you are Jesse James.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "No more half-measures, Walter.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "Shut the f*ck up and let me die in peace.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "Keys, scumbag. It's the universal symbol for keys.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "I will put you under the jail.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "My name is ASAC Schrader, and you can go f*ck yourself.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "They're minerals, Marie! Jesus!",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "Since when do vegans eat fried chicken?",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "You're the smartest guy I ever met, and you're too stupid to see he made up his mind 10 minutes ago.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "All I can do is wait... for the cancer to come back.",
-        "author": "Skyler White"
-    },
-    {
-        "text": "Put me on your magical boat, man, and sail me down your chocolaty river of meth!",
-        "author": "Badger"
-    },
-    {
-        "text": "Buzz buzz buzz",
-        "author": "The fly"
-    },
-    {
-        "text": "The Universe is Random. Not Inevitable. It's simple Chaos.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Sometimes it just feels better not to talk. At All. About Anything. To Anyone.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Name one thing in this world that is non negotiable.",
-        "author": "Walter White"
-    },
-    {
-        "text": "You are not the guy. You're not capable of being the guy. I had a guy but now I don't. You are not the guy.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "If you don’t know who I am, then maybe your best course would be to tread lightly.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Walter Jr., you're my big man. There are going to be some things that you'll come to learn about me in the next few days. But just know that no matter how it may look, I only had you in my heart. Goodbye!",
-        "author": "Walter White"
-    },
-    {
-        "text": "What I came to realise is that fear, that's the worst of it. That's the real enemy. So, get up, get out in the real world and you kick that bastard as hard you can right in the teeth.",
-        "author": "Walter White"
-    },
-    {
-        "text": "You need to stop focusing on the darkness behind you. The past is the past. Nothing can change what we’ve done.",
-        "author": "Walter White"
-    },
-    {
-        "text": "This is my own private domicile and I will not be harassed... bitch!",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "You don't want a criminal lawyer. You want a criminal lawyer.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "So roll me further bitch!",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "I Won.",
-        "author": "Walter White"
-    },
-    {
-        "text": "You're never too old for balloons.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "I have spent my whole life scared frightened of things that could happen, might happen, might not happen.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Now, hey, remember, not all learning comes out of books.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Then why don't you just fucking die, already?",
-        "author": "Walter White Jr"
-    },
-    {
-        "text": "He handles the businesses, and I handle him.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Shit!",
-        "author": "Walter White"
-    },
-    {
-        "text": "You little bastard.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Stop acting like such a baby.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Is that your fly-sabre?",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Don't bullshit a bullshitter.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Some people are immune to good advice.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Well, technically, chemistry is the study of matter. But I prefer to see it as the study of change.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Find what you love and let it kill you.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Let's see, how should i put this? I'm in, you're out.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Never give up control. Live life on your own terms.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Fear is the real enemy.",
-        "author": "Walter White"
-    },
-    {
-        "text": "All bad things must come to an end.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Jesse, you asked me if I was in the meth business or the money business.. Neither. I'm in the empire business.",
-        "author": "Walter White"
-    },
-    {
-        "text": "Sometimes the forbidden fruit tastes the sweetest.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "Free food always tastes good. Free drinks even better.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "My friends, I promise you that together, we will prosper.",
-        "author": "Gustavo Fring"
-    },
-    {
-        "text": "Now look buddy, the last thing I want to do is get you in hot water, but some meth monkey had a feeding frenzy in here.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "Fifty years I spent like that. Finding myself awake at three in the morning. But you know what? Ever since my diagnosis, I sleep just fine.",
-        "author": "Walter White"
-    },
-    {
-        "text": "I told you, Skyler, I warned you for a solid year: you cross me, and there will be consequences.",
-        "author": "Walter White"
-    },
-    {
-        "text": "I want my kids back. I want my life back. Please tell me – How much is enough? How big does this pile have to be?",
-        "author": "Skyler White"
-    },
-    {
-        "text": "It’s easy money. Until we catch you.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "I once told a woman I was Kevin Costner and it worked because I believed it.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "Scientists love lasers.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "If you’re committed enough, you can make any story work.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "Did I say you could open your mouth? And, hands off the car!",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "If you believe that there’s a hell, we’re pretty much already going there.",
-        "author": "Walter White"
-    },
-    {
-        "text": "You add plus a douchebag to a minus douchebag and you get, Like, Zero Douchebags.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "A guy that clean has to be dirty.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "There is gold in the streets just waiting for someone to come and scoop it up.",
-        "author": "Walter White"
-    },
-    {
-        "text": "The fun’s over. From here on out, I’m Mr. Low Profile. Just another douche bag with a job and three pairs of Dockers. If I’m lucky, month from now, best-case scenario, I’m managing a Cinnabon in Omaha.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "I am speaking to my family now. Skyler, you are the love of my life. I hope you know that.",
-        "author": "Walter White"
-    },
-    {
-        "text": "I could have saved her.",
-        "author": "Walter White"
-    },
-    {
-        "text": "I'm not a criminal. I'm a criminal lawyer.",
-        "author": "Saul Goodman"
-    },
-    {
-        "text": "I have lived under the threat of death for a year now, and because of that, I've made peace with it.",
-        "author": "Walter White"
-    },
-    {
-        "text": "I investigate everyone with whom I do business. What careful man wouldn't?",
-        "author": "Gustavo Fring"
-    },
-    {
-        "text": "It’s like Scarface had sex with Mr. Rogers or something.",
-        "author": "Hank Schrader"
-    },
-    {
-        "text": "Sitting around, smoking marijuana, eating Cheetos and masturbating do not constitute ‘plans.’",
-        "author": "Walter White"
-    },
-    {
-        "text": "Gatorade me, bitch!",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "We're done when I say we're done.",
-        "author": "Walter White"
-    },
-    {
-        "text": "My name is Skyler White yo. My husband is Walter White... yo.",
-        "author": "Skyler White"
-    },
-    {
-        "text": "To all law enforcement entities, this is not an admission of guilt.",
-        "author": "Walter White"
-    },
-    {
-        "text": "We're all on the same page. The one that says, if I can't kill you, you'll sure as shit wish you were dead.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Coin flip is sacred.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "You either run from things, or you face them, Mr. White.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Tight. Tight. Tight.",
-        "author": "Tuco Salamanca"
-    },
-    {
-        "text": "Get busy living or get busy dying.",
-        "author": "Stephen King"
-    },
-    {
-        "text": "Free to cook anytime, anywhere.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Cooking is art. And the shit I cook is the bomb.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "I'm the guy your boss brought here to show you how it's done.",
-        "author": "Jesse Pinkman"
-    },
-    {
-        "text": "Moral of the story is: I chose a half measure when I should have gone all the way. I'll never make that mistake again. No more half measures, Walter.",
-        "author": "Mike Ehrmantraut"
-    },
-    {
-        "text": "I did it for the chemistry.",
-        "author": "Gale Boetticher"
-    },
-    {
-        "text": "You’re early lucky, you know that? You didn’t have to wait your whole life to do something special.",
-        "author": "Walter White"
-    },
-    {
-        "text": "You have a good rest of your life, kid.",
-        "author": "Jesse Pinkman"
-    }
+  {
+    text: 'Genius is one percent inspiration and ninety-nine percent perspiration.',
+    author: 'Thomas Edison',
+  },
+  {
+    text: 'You can observe a lot just by watching.',
+    author: 'Yogi Berra',
+  },
+  {
+    text: 'A house divided against itself cannot stand.',
+    author: 'Abraham Lincoln',
+  },
+  {
+    text: 'Difficulties increase the nearer we get to the goal.',
+    author: 'Johann Wolfgang von Goethe',
+  },
+  {
+    text: 'Fate is in your hands and no one elses',
+    author: 'Byron Pulsifer',
+  },
+  {
+    text: 'Be the chief but never the lord.',
+    author: 'Lao Tzu',
+  },
+  {
+    text: 'Nothing happens unless first we dream.',
+    author: 'Carl Sandburg',
+  },
+  {
+    text: 'Well begun is half done.',
+    author: 'Aristotle',
+  },
+  {
+    text: 'Life is a learning experience, only if you learn.',
+    author: 'Yogi Berra',
+  },
+  {
+    text: 'Self-complacency is fatal to progress.',
+    author: 'Margaret Sangster',
+  },
+  {
+    text: 'Peace comes from within. Do not seek it without.',
+    author: 'Buddha',
+  },
+  {
+    text: 'What you give is what you get.',
+    author: 'Byron Pulsifer',
+  },
+  {
+    text: 'We can only learn to love by loving.',
+    author: 'Iris Murdoch',
+  },
+  {
+    text: 'Life is change. Growth is optional. Choose wisely.',
+    author: 'Karen Clark',
+  },
+  {
+    text: "You'll see it when you believe it.",
+    author: 'Wayne Dyer',
+  },
+  {
+    text: 'Today is the tomorrow we worried about yesterday.',
+    author: null,
+  },
+  {
+    text: "It's easier to see the mistakes on someone else's paper.",
+    author: null,
+  },
+  {
+    text: 'Every man dies. Not every man really lives.',
+    author: null,
+  },
+  {
+    text: 'To lead people walk behind them.',
+    author: 'Lao Tzu',
+  },
+  {
+    text: 'Having nothing, nothing can he lose.',
+    author: 'William Shakespeare',
+  },
+  {
+    text: 'Trouble is only opportunity in work clothes.',
+    author: 'Henry J. Kaiser',
+  },
+  {
+    text: 'A rolling stone gathers no moss.',
+    author: 'Publilius Syrus',
+  },
+  {
+    text: 'Ideas are the beginning points of all fortunes.',
+    author: 'Napoleon Hill',
+  },
+  {
+    text: 'Everything in life is luck.',
+    author: 'Donald Trump',
+  },
+  {
+    text: 'Doing nothing is better than being busy doing nothing.',
+    author: 'Lao Tzu',
+  },
+  {
+    text: 'Trust yourself. You know more than you think you do.',
+    author: 'Benjamin Spock',
+  },
+  {
+    text: 'Study the past, if you would divine the future.',
+    author: 'Confucius',
+  },
+  {
+    text: 'The day is already blessed, find peace within it.',
+    author: null,
+  },
+  {
+    text: 'From error to error one discovers the entire truth.',
+    author: 'Sigmund Freud',
+  },
+  {
+    text: 'Well done is better than well said.',
+    author: 'Benjamin Franklin',
+  },
+  {
+    text: 'Bite off more than you can chew, then chew it.',
+    author: 'Ella Williams',
+  },
+  {
+    text: 'Work out your own salvation. Do not depend on others.',
+    author: 'Buddha',
+  },
+  {
+    text: 'One today is worth two tomorrows.',
+    author: 'Benjamin Franklin',
+  },
+  {
+    text: 'Once you choose hope, anythings possible.',
+    author: 'Christopher Reeve',
+  },
+  {
+    text: 'God always takes the simplest way.',
+    author: 'Albert Einstein',
+  },
+  {
+    text: 'One fails forward toward success.',
+    author: 'Charles Kettering',
+  },
+  {
+    text: 'From small beginnings come great things.',
+    author: null,
+  },
+  {
+    text: 'Learning is a treasure that will follow its owner everywhere',
+    author: 'Chinese proverb',
+  },
+  {
+    text: 'Be as you wish to seem.',
+    author: 'Socrates',
+  },
+  {
+    text: 'The world is always in movement.',
+    author: 'V. Naipaul',
+  },
+  {
+    text: 'Never mistake activity for achievement.',
+    author: 'John Wooden',
+  },
+  {
+    text: 'What worries you masters you.',
+    author: 'Haddon Robinson',
+  },
+  {
+    text: 'One faces the future with ones past.',
+    author: 'Pearl Buck',
+  },
+  {
+    text: 'Goals are the fuel in the furnace of achievement.',
+    author: 'Brian Tracy',
+  },
+  {
+    text: 'Who sows virtue reaps honour.',
+    author: 'Leonardo da Vinci',
+  },
+  {
+    text: 'Be kind whenever possible. It is always possible.',
+    author: 'Dalai Lama',
+  },
+  {
+    text: "Talk doesn't cook rice.",
+    author: 'Chinese proverb',
+  },
+  {
+    text: 'He is able who thinks he is able.',
+    author: 'Buddha',
+  },
+  {
+    text: 'A goal without a plan is just a wish.',
+    author: 'Larry Elder',
+  },
+  {
+    text: 'To succeed, we must first believe that we can.',
+    author: 'Michael Korda',
+  },
+  {
+    text: 'Learn from yesterday, live for today, hope for tomorrow.',
+    author: 'Albert Einstein',
+  },
+  {
+    text: 'A weed is no more than a flower in disguise.',
+    author: 'James Lowell',
+  },
+  {
+    text: 'Do, or do not. There is no try.',
+    author: 'Yoda',
+  },
+  {
+    text: 'All serious daring starts from within.',
+    author: 'Harriet Beecher Stowe',
+  },
+  {
+    text: 'The best teacher is experience learned from failures.',
+    author: 'Byron Pulsifer',
+  },
+  {
+    text: 'Think how hard physics would be if particles could think.',
+    author: 'Murray Gell-Mann',
+  },
+  {
+    text: "Love is the flower you've got to let grow.",
+    author: 'John Lennon',
+  },
+  {
+    text: "Don't wait. The time will never be just right.",
+    author: 'Napoleon Hill',
+  },
+  {
+    text: 'Time is the wisest counsellor of all.',
+    author: 'Pericles',
+  },
+  {
+    text: 'You give before you get.',
+    author: 'Napoleon Hill',
+  },
+  {
+    text: 'Wisdom begins in wonder.',
+    author: 'Socrates',
+  },
+  {
+    text: 'Without courage, wisdom bears no fruit.',
+    author: 'Baltasar Gracian',
+  },
+  {
+    text: 'Change in all things is sweet.',
+    author: 'Aristotle',
+  },
+  {
+    text: 'What you fear is that which requires action to overcome.',
+    author: 'Byron Pulsifer',
+  },
+  {
+    text: 'When performance exceeds ambition, the overlap is called success.',
+    author: 'Cullen Hightower',
+  },
+  {
+    text: 'When deeds speak, words are nothing.',
+    author: 'African proverb',
+  },
+  {
+    text: 'Real magic in relationships means an absence of judgement of others.',
+    author: 'Wayne Dyer',
+  },
+  {
+    text: 'I never think of the future. It comes soon enough.',
+    author: 'Albert Einstein',
+  },
+  {
+    text: 'Skill to do comes of doing.',
+    author: 'Ralph Emerson',
+  },
+  {
+    text: 'Wisdom is the supreme part of happiness.',
+    author: 'Sophocles',
+  },
+  {
+    text: 'I believe that every person is born with talent.',
+    author: 'Maya Angelou',
+  },
+  {
+    text: 'Important principles may, and must, be inflexible.',
+    author: 'Abraham Lincoln',
+  },
+  {
+    text: 'The undertaking of a new action brings new strength.',
+    author: 'Richard Evans',
+  },
+  {
+    text: 'The years teach much which the days never know.',
+    author: 'Ralph Emerson',
+  },
+  {
+    text: 'Our distrust is very expensive.',
+    author: 'Ralph Emerson',
+  },
+  {
+    text: 'All know the way; few actually walk it.',
+    author: 'Bodhidharma',
+  },
+  {
+    text: 'Great talent finds happiness in execution.',
+    author: 'Johann Wolfgang von Goethe',
+  },
+  {
+    text: 'Faith in oneself is the best and safest course.',
+    author: 'Michelangelo',
+  },
+  {
+    text: 'Courage is going from failure to failure without losing enthusiasm.',
+    author: 'Winston Churchill',
+  },
+  {
+    text: 'The two most powerful warriors are patience and time.',
+    author: 'Leo Tolstoy',
+  },
+  {
+    text: 'Anticipate the difficult by managing the easy.',
+    author: 'Lao Tzu',
+  },
+  {
+    text: 'Those who are free of resentful thoughts surely find peace.',
+    author: 'Buddha',
+  },
+  {
+    text: 'A short saying often contains much wisdom.',
+    author: 'Sophocles',
+  },
+  {
+    text: 'It takes both sunshine and rain to make a rainbow.',
+    author: null,
+  },
+  {
+    text: 'A beautiful thing is never perfect.',
+    author: null,
+  },
+  {
+    text: 'Only do what your heart tells you.',
+    author: 'Princess Diana',
+  },
+  {
+    text: 'Life is movement-we breathe, we eat, we walk, we move!',
+    author: 'John Pierrakos',
+  },
+  {
+    text: 'No one can make you feel inferior without your consent.',
+    author: 'Eleanor Roosevelt',
+  },
+  {
+    text: 'Argue for your limitations, and sure enough theyre yours.',
+    author: 'Richard Bach',
+  },
+  {
+    text: 'Luck is what happens when preparation meets opportunity.',
+    author: 'Seneca',
+  },
+  {
+    text: 'Victory belongs to the most persevering.',
+    author: 'Napoleon Bonaparte',
+  },
+  {
+    text: 'Love all, trust a few, do wrong to none.',
+    author: 'William Shakespeare',
+  },
+  {
+    text: 'In order to win, you must expect to win.',
+    author: 'Richard Bach',
+  },
+  {
+    text: 'A goal is a dream with a deadline.',
+    author: 'Napoleon Hill',
+  },
+  {
+    text: 'You can do it if you believe you can!',
+    author: 'Napoleon Hill',
+  },
+  {
+    text: "Set your goals high, and don't stop till you get there.",
+    author: 'Bo Jackson',
+  },
+  {
+    text: 'Every new day is another chance to change your life.',
+    author: null,
+  },
+  {
+    text: 'Smile, breathe, and go slowly.',
+    author: 'Thich Nhat Hanh',
+  },
+  {
+    text: 'Nobody will believe in you unless you believe in yourself.',
+    author: 'Liberace',
+  },
+  {
+    text: 'Do more than dream: work.',
+    author: 'William Arthur Ward',
+  },
+  {
+    text: 'No man was ever wise by chance.',
+    author: 'Seneca',
+  },
+  {
+    text: 'Some pursue happiness, others create it.',
+    author: null,
+  },
+  {
+    text: 'He that is giddy thinks the world turns round.',
+    author: 'William Shakespeare',
+  },
+  {
+    text: "Don't ruin the present with the ruined past.",
+    author: 'Ellen Gilchrist',
+  },
+  {
+    text: 'Do something wonderful, people may imitate it.',
+    author: 'Albert Schweitzer',
+  },
+  {
+    text: 'We do what we do because we believe.',
+    author: null,
+  },
+  {
+    text: 'Do one thing every day that scares you.',
+    author: 'Eleanor Roosevelt',
+  },
+  {
+    text: 'If you cannot be silent be brilliant and thoughtful.',
+    author: 'Byron Pulsifer',
+  },
+  {
+    text: 'Who looks outside, dreams; who looks inside, awakes.',
+    author: 'Carl Jung',
+  },
+  {
+    text: 'What we think, we become.',
+    author: 'Buddha',
+  },
+  {
+    text: 'The shortest answer is doing.',
+    author: 'Lord Herbert',
+  },
+  {
+    text: 'All our knowledge has its origins in our perceptions.',
+    author: 'Leonardo da Vinci',
+  },
+  {
+    text: 'The harder you fall, the higher you bounce.',
+    author: null,
+  },
+  {
+    text: 'Trusting our intuition often saves us from disaster.',
+    author: 'Anne Wilson Schaef',
+  },
+  {
+    text: 'Truth is powerful and it prevails.',
+    author: 'Sojourner Truth',
+  },
+  {
+    text: 'Light tomorrow with today!',
+    author: 'Elizabeth Browning',
+  },
+  {
+    text: 'Silence is a fence around wisdom.',
+    author: 'German proverb',
+  },
+  {
+    text: 'Society develops wit, but its contemplation alone forms genius.',
+    author: 'Madame de Stael',
+  },
+  {
+    text: 'The simplest things are often the truest.',
+    author: 'Richard Bach',
+  },
+  {
+    text: 'Everyone smiles in the same language.',
+    author: null,
+  },
+  {
+    text: 'Yesterday I dared to struggle. Today I dare to win.',
+    author: 'Bernadette Devlin',
+  },
+  {
+    text: 'No alibi will save you from accepting the responsibility.',
+    author: 'Napoleon Hill',
+  },
+  {
+    text: 'If you can dream it, you can do it.',
+    author: 'Walt Disney',
+  },
+  {
+    text: 'It is better to travel well than to arrive.',
+    author: 'Buddha',
+  },
+  {
+    text: "Life shrinks or expands in proportion to one's courage.",
+    author: 'Anais Nin',
+  },
+  {
+    text: 'You have to believe in yourself.',
+    author: 'Sun Tzu',
+  },
+  {
+    text: 'Our intention creates our reality.',
+    author: 'Wayne Dyer',
+  },
+  {
+    text: 'Silence is a true friend who never betrays.',
+    author: 'Confucius',
+  },
+  {
+    text: 'Character develops itself in the stream of life.',
+    author: 'Johann Wolfgang von Goethe',
+  },
+  {
+    text: 'From little acorns mighty oaks do grow.',
+    author: 'American proverb',
+  },
+  {
+    text: "You can't stop the waves, but you can learn to surf.",
+    author: 'Jon Kabat-Zinn',
+  },
+  {
+    text: 'Reality does not conform to the ideal, but confirms it.',
+    author: 'Gustave Flaubert',
+  },
+  {
+    text: 'Speak low, if you speak love.',
+    author: 'William Shakespeare',
+  },
+  {
+    text: 'A really great talent finds its happiness in execution.',
+    author: 'Johann Wolfgang von Goethe',
+  },
+  {
+    text: 'Reality leaves a lot to the imagination.',
+    author: 'John Lennon',
+  },
+  {
+    text: 'The greatest remedy for anger is delay.',
+    author: 'Seneca',
+  },
+  {
+    text: 'Growth itself contains the germ of happiness.',
+    author: 'Pearl Buck',
+  },
+  {
+    text: "You can do what's reasonable or you can decide what's possible.",
+    author: null,
+  },
 ];
