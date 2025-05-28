@@ -7,9 +7,15 @@ body {
     padding: 0;
     margin: 0;
     min-height: 100vh;
-    background-color: #ffffff;
-    background-image: url("https://i.pinimg.com/736x/c2/f4/1b/c2f41b6ebbea37539b0173730e8af559.jpg")
-    color: #000000;
+    /* Use a subtle dark overlay on top of the image */
+    background-color: #1e1e2f; /* dark navy/grey base */
+    background-image: 
+        linear-gradient(rgba(30, 30, 47, 0.7), rgba(30, 30, 47, 0.7)),
+        url("https://i.pinimg.com/736x/c2/f4/1b/c2f41b6ebbea37539b0173730e8af559.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* lighter text to contrast the darker background */
     font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -20,6 +26,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 
 main.main-container {
     display: flex;
