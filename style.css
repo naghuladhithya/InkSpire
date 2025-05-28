@@ -7,8 +7,7 @@ html {
   position: fixed;      /* Fix it relative to the viewport */
   top: 0;               /* Align to top */
   left: 0;              /* Align to left */
-  width: 100%; 
-  font-size: 1.5rem;/* Full width */
+  width: 100%;
   z-index: 1000;        /* Make sure it stays above other content */
   text-align: center;
   padding: 1rem;
